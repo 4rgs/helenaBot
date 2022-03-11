@@ -12,7 +12,7 @@ with open('intents.json', 'r') as json_data:
     intents = json.load(json_data)
 
 
-model = tf.keras.models.load_model('my_model')
+model = tf.keras.models.load_model('helena')
 
 
 bot_name = "Helena"
