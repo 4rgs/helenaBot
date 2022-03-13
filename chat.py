@@ -34,9 +34,9 @@ def chat(entrada):
     if prob[0][pred] > 0.60:
         for intent in intents['intents']:
             if tag == intent["tag"]:
-                response = (f"{bot_name}: {random.choice(intent['responses'])}")
+                response = (f"{random.choice(intent['responses'])}")
     else:
-        response = (f"{bot_name}: Perdón no entiendo :( ...")
+        response = (f"Perdón no entiendo :( ...")
     print(response)
-    return jsonify({"message":response})
+    return jsonify({"nombre": bot_name,"mensaje":response})
 
