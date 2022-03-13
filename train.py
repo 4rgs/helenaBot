@@ -6,8 +6,8 @@ num_epochs = 2000
 batch_size = 12 
 learning_rate = 0.001
 input_size = len(X_train[0])
-hidden_size = 10 
-output_size = 9 
+hidden_size = 11 
+output_size = 10 
 
 
 model = tf.keras.models.Sequential([

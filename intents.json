@@ -107,6 +107,15 @@
         "Cuáles son las vacas más perezosas? Las vacaciones!",
         "Jaimito, ¿qué planeta va después de Marte? Miércole!"
       ]
+    },
+    {
+      "tag": "funa",
+      "patterns": [
+        "¡funame!"
+      ],
+      "responses": [
+        "Cuáles son las vacas más perezosas? Las vacaciones!"
+      ]
     }
   ]
 }

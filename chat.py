@@ -13,6 +13,7 @@ with open('intents.json', 'r') as json_data:
 
 
 model = tf.keras.models.load_model('helena')
+print(model)
 entrada = ""
 bot_name = "Helena"
 
@@ -29,6 +30,7 @@ def chat(entrada):
      
     tag = tags[pred]
     response = ""
+    print(prob[0][pred])
     if prob[0][pred] > 0.60:
         for intent in intents['intents']:
             if tag == intent["tag"]:
