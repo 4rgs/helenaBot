@@ -1,6 +1,6 @@
 import numpy as np
 import nltk
-# nltk.download('punkt')
+#nltk.download('punkt')
 from nltk.tokenize.toktok import ToktokTokenizer
 
 from nltk.stem.snowball import SnowballStemmer

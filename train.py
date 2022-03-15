@@ -2,11 +2,11 @@ import tensorflow as tf
 from data import X_train, y_train
 
 # Hyper-parameters 
-num_epochs = 2000
+num_epochs = 2022 
 batch_size = 12 
-learning_rate = 0.001
+learning_rate = 0.0001
 input_size = len(X_train[0])
-hidden_size = 11 
+hidden_size = 10
 output_size = 10 
 
 

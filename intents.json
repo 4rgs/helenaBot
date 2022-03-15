@@ -8,7 +8,9 @@
         "Cómo estás tú",
         "Qué tal",
         "wena",
-        "Buenos días"
+        "Buenos días",
+        "buenas buenas",
+        "Saludos!"
       ],
       "responses": [
         "Hola :-)",
@@ -19,7 +21,15 @@
     },
     {
       "tag": "adiós",
-      "patterns": ["adiós", "hasta luego","adios","chao"],
+      "patterns": [
+        "adiós", 
+        "hasta luego",
+        "chao",
+        "bye",
+        "chau",
+        "nos vemos!",
+        "chau, cuidate!"
+      ],
       "responses": [
         "Nos vemos pronto",
         "Hasta luego, gracias por visitarnos",
@@ -29,33 +39,29 @@
     },
     {
       "tag": "Gracias",
-      "patterns": ["Gracias", "mucho gracias", "eso es útil"],
-      "responses": ["Encantado de ayudar!", "¡En cualquier momento!", "Mi placer"]
-    },
-    {
-      "tag": "respuesta_nombre",
-      "patterns":[
-        "Me llamo",
-        "Mi nombre es",
-        "Me dicen",
-        "Soy tu"
+      "patterns": [
+        "Gracias", 
+        "mucho gracias", 
+        "eso es útil"
       ],
-      "responses":[
-        "Que nombre tan peculiar, ¿te lo puso tu creador?",
-        "¿En que diccionario encontraron ese nombre?",
-        "Que nombre mas guapo"
+      "responses": [
+        "Encantado de ayudar!", 
+        "¡En cualquier momento!", 
+        "Mi placer"
       ]
     },
     {
       "tag": "artículos",
       "patterns": [
-        "¿Qué artículos tienes?",
-        "¿Qué tipo de artículos hay?",
-        "¿Qué vendes?"
+        "¿Qué desarrollos tienes?",
+        "¿Qué tipo de desarrollos hacen?",
+        "¿Qué vendes?",
+        "¿Que clase de trabajos haces?"
       ],
       "responses": [
-        "Nosotros vendemos cafe y te",
-        "Nosotros tenemos cafe y te"
+        "Desarrollamos software a medida y customizacion del cliente",
+        "Organizamos e implementamos las arquitecturas para soluciones TI",
+        "Jugamos a desarrollar el mundo, mientras cobramos por hacerlo"
       ]
     },
     {
@@ -67,20 +73,8 @@
         "¿Es solo efectivo?"
       ],
       "responses": [
-        "Aceptamos VISA, Mastercard y Paypal",
-        "Aceptamos la mayoría de las principales tarjetas de crédito y Paypal."
-      ]
-    },
-    {
-      "tag": "nombre",
-      "patterns": [
-        "¿Como te llamas?",
-        "¿Cual es tu nombre?",
-        "¿Como te dicen?"
-      ],
-      "responses":[
-        "Mi nombre es Helena, y tú, ¿como te llamas?",
-        "Me llamo Helena, un gusto =)"
+        "Aceptamos transferencias directas o Paypal.",
+        "Aceptamos transferencias de cualquier banco y Paypal."
       ]
     },
     {
@@ -88,6 +82,8 @@
       "patterns": [
         "¿Cuánto tiempo tarda la entrega?",
         "Cuanto tiempo tarda el envio?",
+        "Cuanto tarda el sistema de delivery",
+        "Cuanto demora en llegar mi producto?",
         "¿Cuándo recibo mi entrega?",
         "¿Cuándo llega mi pedido?"
       ],
@@ -101,20 +97,59 @@
       "patterns": [
         "¡Cuéntame un chiste!",
         "¡Dime algo gracioso!",
+        "¡Dime algo chistoso",
         "¿Conoces un chiste?"
       ],
       "responses": [
         "Cuáles son las vacas más perezosas? Las vacaciones!",
-        "Jaimito, ¿qué planeta va después de Marte? Miércole!"
+        "Jaimito, ¿qué planeta va después de Marte? Miércole!",
+        "¿Cómo se llama el campeón de buceo japonés?. Tokofondo.¿Y el subcampeón?. Kasitoko.",
+        "Van dos cieguitos por la calle pasando calor uno dice: ¡Ojalá lloviera! y el otro le responde: ¡Ojalá yo también, hahahaha"
       ]
     },
     {
       "tag": "funa",
       "patterns": [
-        "¡funame!"
+        "¡funame!",
+        "callate!",
+        "corta tu wea",
+        "chupalo"
       ],
       "responses": [
-        "Cuáles son las vacas más perezosas? Las vacaciones!"
+        "Si sigues asi, tendre que funarte!",
+        "Una más y te BANEO!"
+      ]
+    },
+    {
+      "tag": "negocios",
+      "patterns": [
+        "¿Tienes algun curriculum?",
+        "¿Como podemos negociar?",
+        "Me gustaria saber si estás disponible para un trabajo",
+        "Estas dispuesto a trabajar?",
+        "Cuanto cobras por un servicio",
+        "Cuales son tus proyecciones",
+        "Busco ofertas de trabajo"
+      ],
+      "responses": [
+        "Si quieres contactarte conmigo por negocios, envia un mail a alvaro.gonzalez.dev@gmail.com",
+        "Para comunicarte conmigo puedes ingresar a spids.cl y ver mi contenido",
+        "Escribeme a alvaro.gonzalez.dev@gmail.com"
+      ]
+    },
+    {
+      "tag": "spids",
+      "patterns":[
+        "busco a spids",
+        "quien es spids",
+        "busco a 4rgs",
+        "quien te creo?",
+        "quien es tu creador?"
+      ],
+      "responses":[
+        "mi creador es Spids",
+        "si buscas a spids, esta escondido por aquí",
+        "Spids es el creador de este chat"
       ]
     }
   ]
