@@ -1,5 +1,6 @@
 flask
 flask_cors
 numpy
-tensorflow
 nltk
+pyttsx3
+pypiwin32
