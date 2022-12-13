@@ -2,14 +2,14 @@ import tensorflow as tf
 from data import X_train, y_train
 
 # Hyper-parameters 
-num_epochs = 2022 
+num_epochs = 2000 
 batch_size = 12 
 learning_rate = 0.0001
 input_size = len(X_train[0])
 hidden_size = 10
 output_size = 10 
 
-
+# Estructura de la neurona
 model = tf.keras.models.Sequential([
   tf.keras.Input(shape = input_size),
   tf.keras.layers.Dense(hidden_size, activation='relu'),
